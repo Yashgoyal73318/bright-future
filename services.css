@@ -1,0 +1,109 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+header .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header ul {
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    align-items: right;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #007BFF;
+    
+}
+
+header .title h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+main section p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+}
+
+/* Back Button Styling */
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}

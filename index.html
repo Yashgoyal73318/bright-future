@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="This is description">
+    <meta name="keywords" content="html, html tutorials, web development">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>BRIGHT FUTURE COACHING CENTRE</title>
+    <link rel="stylesheet" href="teach.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="study-logo-design--removebg-preview.png" alt="Logo">
+            </div>
+            <div class="menu-toggle">&#9776;</div> <!-- Toggle button for mobile view -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>BRIGHT FUTURE COACHING CENTRE</h1>
+            <h2>We generate fears while we do nothing.</h2>
+            <h3>"We overcome these fears by taking action."</h3>
+        </div>
+        <div class="button">
+            <a href="https://youtu.be/020g-0hhCAU?si=96caAXubAoPTIb15" class="btn">WATCH VIDEO</a>  
+            <a href="https://www.crazygames.com/t/brain" class="btn">LEARN MORE</a> 
+        </div>
+        <br>
+        <img src="58469_19680733_3579915_06af3385_image.jpg" style="width:200 px; height:385px" alt="Image 1">
+        <img src="517402_17914794_3255368_780e645d_image.jpg" style="width:200 px; height:385px" alt="Image 1">
+        <img src="555545-widescreen-wallpaper-of-study-2560x1440.jpg" style="width:200 px; height:385px" alt="Image 1">
+
+    </header>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const toggleButton = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            toggleButton.addEventListener('click', () => {
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>

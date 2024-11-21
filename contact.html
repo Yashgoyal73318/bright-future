@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bright Future Coaching Centre</title>
+    <link rel="stylesheet" href="contact.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("5pw_i_U7umSDHMst_");
+})();
+</script>
+<script src="contact.js"></script>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="study-logo-design--removebg-preview.png">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="title">
+            <h1>Contact Us</h1>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required style="width: 725px; height:226px;"></textarea>
+            
+            <button type="submit" onclick="sendMail()">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bright Future Coaching Centre</p>
+    </footer>
+</body>
+</html>
